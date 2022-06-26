@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="{{asset('assets/css/stok-barang-vandina.css')}}" rel="stylesheet">
+    <link rel="icon" type="image/png" href="{{asset('assets/img/icon.png')}}">
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="main-content vh-100 justify-content-center">
+        <div class="container-sm position-absolute top-50 start-50 translate-middle">
+            <div class="card o-hidden border-0 shadow-lg my-5 col-lg-4 mx-auto">
+                <div class="card-header">
+                  <a class="navbar-brand m-0" href=" https://irvan-syachrialdi.com" target="_blank">
+                    <img src="assets/img/icon.png" class="navbar-brand-img h-100" alt="main_logo" width="20">
+                    <span class="ms-1 font-weight-bold"><b>Vandina</b> Dashboard</span><span class="ms-1" style="font-size: 10px; color: red;">Beta</span>
+                  </a>
+                </div>
+                <div class="card-body p-0">
+                    <!-- Nested Row within Card Body -->
+                    <div class="row">
+                        <div class="col-lg">
+                            <div class="p-4">
+                                <div class="">
+                                    <h1 class="h3">Login</h1>
+                                    <h6 class="h6 font-weight-normal mb-2" style="font-size: 14px;">Masukan username dan password untuk masuk</h6>
+                                </div>
+                                <form>
+                                    <div class="mb-2">
+                                      <label for="username" class="form-label">Username</label>
+                                      <input type="text" class="form-control" id="username" aria-describedby="usernameHelp" placeholder="Username">
+                                    </div>
+                                    <div class="mb-2">
+                                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    </div>
+                                    <div class="form-check form-switch mb-2">
+                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Ingat saya</label>
+                                      </div>
+                                    <a href="/dashboard" type="submit" class="btn btn-danger form-control mb-2">Masuk</a>
+                                    <hr class="dropdown-divider mb-2">
+                                    <a href="emailto:irvan.syachrialdih@gmail.com" class="nav-link text-primary text-center" target="_blank" style="font-size: 12px;">Silahkan hubungi super admin untuk mendaftar</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer pt-3 fixed-bottom">
+          <div class="container-fluid mb-2">
+            <div class="row align-items-center justify-content-lg-between">
+              <div class="col-lg-4 mb-lg-0 mb-4">
+                <div class="copyright text-center text-sm text-black text-lg-start">
+                  © <script>
+                    document.write(new Date().getFullYear())
+                  </script>,
+                  with <i class="fa fa-heart text-danger"></i> From <a href="https://www.irvan-syachrialdi.com" class="font-weight-bold text-black" target="_blank">Vandina Project</a>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <ul class="nav nav-footer justify-content-center justify-content-lg-end">
+                  <li class="nav-item">
+                    <a href="https://www.irvan-syachrialdi.com/vandina-project" class="nav-link text-black" target="_blank">Tentang kami</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://www.irvan-syachrialdi.com/vandina-project" class="nav-link text-black" target="_blank">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://www.irvan-syachrialdi.com/license" class="nav-link pe-0 text-black" target="_blank">License</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+    </div>
+  </body>
+</html>
