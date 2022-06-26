@@ -129,8 +129,7 @@
       }
       Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
     }
-
-
+    
     function openNav() {
       document.getElementById("side-right-add").style.width = "350px";
       document.getElementById("main").style.marginRight = "350px";
